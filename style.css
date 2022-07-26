@@ -1,0 +1,125 @@
+body {
+    background: #181d42;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+form {
+    width: 300px;
+    height: 575px;
+    background: #21295c;
+    color: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+}
+
+form:nth-last-child(1) {
+    margin-left: 20px;
+}
+
+h1 {
+    margin: 30px 0 40px 0;
+}
+
+.inputLogin {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #2a4494;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.inputLogin svg {
+    margin: 10px 5px 10px 15px;
+}
+
+.inputLogin input {
+    position: absolute;
+    margin-top: 7px;
+    background: #21295c;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    outline: 0;
+}
+
+form a {
+    text-decoration: none;
+    color: #2a4494;
+    margin: 0 0 20px 10px;
+}
+
+form button {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    background: #2a4494;
+    margin-top: 20px;
+}
+
+form p {
+    margin: 150px 0 20px 90px;
+}
+
+form span {
+    padding: 0 70px;
+}
+
+form div:nth-last-child(1) {
+    display: flex;
+}
+
+form div:nth-last-child(1) a {
+    margin-top: 20px;
+}
+
+form div p {
+    margin: 20px 0 0 25px;
+}
+
+form:nth-last-child(1) input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #2a4494;
+    background: #21295c;
+    border-radius: 30px;
+    margin: 20px 0;
+    outline: 0;
+    padding: 7px 20px;
+    font-size: 18px;
+    color: #fff;
+    outline: 0;
+}
+
+form:nth-last-child(1) div{
+    display: flex;
+}
+
+form:nth-last-child(1) input:nth-child(1) {
+    width: 50%;
+    text-align: center;
+}
+
+form:nth-last-child(1) input:nth-child(2) {
+    width: 50%;
+    margin-left: 10px;
+    text-align: center;
+}
+
+form:nth-last-child(1) button {
+    margin-bottom: 54px;
+}
